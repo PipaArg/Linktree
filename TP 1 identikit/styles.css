@@ -1,0 +1,32 @@
+
+
+body {background-image: url("wallpaper.jpg");
+background-size: cover;}
+p {
+    text-align: center; font-family: 'Courier New', Courier, monospace;
+}
+h1{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h3 {
+    font-style: italic; cursive;
+
+}
+.lugares { font-family: 'Courier New', Courier, monospace;}
+.sitios {font-family: 'Courier New', Courier, monospace;}
+.tierlist {font-family: 'Courier New', Courier, monospace;}
+th {font-family: 'Courier New', Courier, monospace;}
+.letras {text-align: center; font-family: 'Courier New', Courier, monospace;width: 50px; height: 50px;}
+.imagenestierlist { width: 100px;text-align: center;height: 100px;}
+table {font-family: 'Courier New', Courier, monospace;}
+.datosinternos {font-family: 'Courier New', Courier, monospace;}
+ol { list-style: lower-greek;}
+.menu {width: 100%;text-align: center;list-style: none;}
+a:hover {background-color: red;}
+.footer {height: 20vh;
+    text-align: center; padding: 20px; font-family: 'Courier New', Courier, monospace; position: relative;margin-top: 0%;}
+   
