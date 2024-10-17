@@ -1,34 +1,33 @@
 body {
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-lineas-dinamicas-estilo-papel_23-2149008629.jpg?w=1380&t=st=1727993843~exp=1727994443~hmac=cd3fe015f4c2bcc905751ad78403c6a85e8393eed7da271de95e5584954ba21a);
+    background-image: url(https://i.blogs.es/929402/fondo-negro-iphone/1366_2000.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 
 .presentacion {
-    position: absolute;
+    position: relative;
     top: 10vi;
-
 }
 
 .presentacion img {
     height: 150px;
     width: 150px;
-    text-align: center;
     position: relative;
     border-radius: 50%;
     left: 50%;
     size: 200vi;
     left: 40vi;
-}
+    }
 
 .presentacion h1 {
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     position: relative;
-    text-align: center;
     size: 200vi;
     left: 40vi;
 }
@@ -38,7 +37,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     position: relative;
-    text-align: center;
     size: 200vi;
     left: 40vi;
 }
@@ -47,9 +45,70 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 0%;
+    position: relative;
+    margin-bottom: 70px;
 }
 
 .links {
-    top: 50%;
+    margin-top: 50px;
     transform: translateY(50%);
+    position: relative;
+
+}
+
+.link1 {
+    height: 50px;
+    width: 600px;
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    left: 40vi;
+    background-color: aliceblue;
+    transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71) 0s
+}
+
+.link1:hover {
+    background-color: red;
+    transform: scale(1.025);
+
+}
+
+.link2 {
+    height: 50px;
+    width: 600px;
+
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    left: 40vi;
+    background-color: blue;
+    transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71) 0s
+}
+
+.link2:hover {
+    background-color: red;
+    transform: scale(1.025);
+}
+
+.link3 {
+    height: 50px;
+    width: 600px;
+    margin-top: 5%;
+    position: relative;
+    left: 50%;
+    size: 200vi;
+    left: 40vi;
+    background-color: aquamarine;
+}
+
+.link3:hover {
+    background-color: red;
+}
+
+.links p {
+    position: relative;
+    top: 35%;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
 }
