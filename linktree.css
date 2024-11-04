@@ -21,7 +21,7 @@ body {
     left: 50%;
     size: 200vi;
     left: 40vi;
-    }
+}
 
 .presentacion h1 {
     font-size: x-large;
@@ -49,6 +49,10 @@ body {
     margin-bottom: 70px;
 }
 
+.presentacion img:hover {
+    transform: scale(1.200);
+}
+
 .links {
     margin-top: 50px;
     transform: translateY(50%);
@@ -60,15 +64,23 @@ body {
     height: 50px;
     width: 600px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
     margin-top: 5%;
     left: 50%;
     left: 40vi;
-    background-color: aliceblue;
+    background-color:white;
     transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71) 0s
 }
 
+.link1 a {
+
+    align-self: center;
+    font-size: 18px;
+    width: 100%;
+}
+
 .link1:hover {
-    background-color: red;
     transform: scale(1.025);
 
 }
@@ -76,39 +88,115 @@ body {
 .link2 {
     height: 50px;
     width: 600px;
-
     position: relative;
+    display: flex;
+    justify-content: space-between;
     margin-top: 5%;
     left: 50%;
     left: 40vi;
-    background-color: blue;
+    background-color:white;
     transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71) 0s
 }
 
+.link2 a {
+
+    align-self: center;
+    font-size: 18px;
+    width: 100%;
+
+}
+
 .link2:hover {
-    background-color: red;
     transform: scale(1.025);
 }
 
 .link3 {
     height: 50px;
     width: 600px;
-    margin-top: 5%;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
     left: 50%;
-    size: 200vi;
     left: 40vi;
-    background-color: aquamarine;
+    background-color:white;
+    transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71) 0s
+}
+
+.link3 a {
+    font-size: 18px;
+    width: 100%;
+    align-self: center;
 }
 
 .link3:hover {
-    background-color: red;
+    transform: scale(1.025);
 }
 
 .links p {
     position: relative;
-    top: 35%;
     text-align: center;
     font-size: 18px;
     width: 100%;
 }
+
+.links img {
+
+    width: 30px;
+    margin-left: 0 auto;
+}
+
+
+@media (max-width: 1024px) {
+    
+    .link1, .link2, .link3 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .presentacion img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .presentacion h1 {
+        font-size: 20px;
+    }
+
+    .presentacion h2 {
+        font-size: 16px;
+    }
+
+    
+    .link1, .link2, .link3 {
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .presentacion {
+        top: 5vh;
+    }
+
+    .presentacion img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .presentacion h1 {
+        font-size: 18px;
+    }
+
+    .presentacion h2 {
+        font-size: 14px;
+    }
+
+
+    .link1, .link2, .link3 {
+        width: 95%;
+        font-size: 14px;
+    }
